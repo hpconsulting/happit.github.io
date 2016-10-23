@@ -1,0 +1,70 @@
+body{
+	background: #9cc5b4;
+	font-family: Montserrat;
+	text-align: center;
+	margin: 0 auto;
+	color:#3a3a3a;
+	font-size: 2em;
+}
+
+div {
+  display: flex;
+  min-height: 100vh;
+}
+p {
+  margin: auto;
+}
+
+/* deco */
+div {
+    background: #9cc5b4;
+}
+
+.fond1{background: #9cc5b4;}
+.fond2{background: #75a290;}
+.fond3{background: url(http://www.sunelia.com/image/tag/1200/400/tag_lead_17_lead_montagne.jg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  }
+
+.fleche{
+	position: absolute;
+    width: 100%;
+    height: 10%;
+    margin-top: -5%;
+    }
+
+.smaller{font-size: 0.8em;}
+
+a, a:hover, a:visited{color:white;text-decoration: none}
+
+footer {position: absolute; bottom: 0; left: 0; right: 0}
+
+.white{color:white;}
+.orange{color:#ef7d00}
+.fb{background: #3b5998;color:white;font-size: 0.5em;padding: 5px;width: 100px;}
+.twitter{background: #4099FF;color:white;font-size: 0.5em;padding: 5px;}
+
+.fb a{width: 100px;}
+.logo{width:200px;
+background: white;-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;margin-bottom: 10px;}
+
+.adresse{font-size: 0.5em; font-style: italic;}
+/** mobile **/
+@media screen and (max-width: 750px) {
+	body{
+		font-size: 1.3em;
+		
+	}
+	
+	p{width: 90%;}
+	.logo{width:200px;
+		background: white;-webkit-border-radius: 50px;
+		-moz-border-radius: 50px;
+	border-radius: 50px;margin-bottom: 30px;}	
+	
+	.fleche{font-size: 2em;margin-top: -20%;}
+	
+}
