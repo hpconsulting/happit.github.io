@@ -15,6 +15,28 @@ p {
   margin: auto;
 }
 
+.largeurfixe{width: 200px;display:inline-block;font-size: .6em;}
+.largeurfixe1{width: 400px;display:inline-block;font-size: .6em;}
+
+.liens {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 0.5s ease; /* Safari et Chrome */
+-moz-transition: all 0.5s ease; /* Firefox */
+-ms-transition: all 0.5s ease; /* Internet Explorer 9 */
+-o-transition: all 0.5s ease; /* Opera */
+transition: all 0.5s ease;
+}
+.liens:hover {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.2); /* Safari et Chrome */
+-moz-transform:scale(1.2); /* Firefox */
+-ms-transform:scale(1.2); /* Internet Explorer 9 */
+-o-transform:scale(1.2); /* Opera */
+transform:scale(1.2);
+}
+
+.liens{font-size: .6em;background: #3a3a3a;color:white;padding: 5px;border-radius:25px; width: 100px; text-align: center}
+.none {display: none;}
 /* deco */
 div {
     background: #9cc5b4;
@@ -22,10 +44,7 @@ div {
 
 .fond1{background: #9cc5b4;}
 .fond2{background: #75a290;}
-.fond3{background: url(http://www.sunelia.com/image/tag/1200/400/tag_lead_17_lead_montagne.jg) no-repeat center fixed; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
-  }
+.fond3{background: #4fbb90}
 
 .fleche{
 	position: absolute;
