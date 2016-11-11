@@ -16,7 +16,7 @@ p {
 }
 
 .largeurfixe{width: 200px;display:inline-block;font-size: .6em;}
-.largeurfixe1{width: 300px;display:inline-block;font-size: .4em;}
+.largeurfixe1{width: 200px;display:inline-block;font-size: .4em;}
 
 .liens {
 /* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
