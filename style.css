@@ -35,6 +35,19 @@ transition: all 0.5s ease;
 transform:scale(1.2);
 }
 
+.hello{background: #3a3a3a;border-radius:25px;width: 300px; padding: 15px;
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;}
+.hello:hover{color:#3a3a3a;background: #FFF;border-radius:25px;width: 300px; padding: 15px;
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;}
+
 .l1{position:fixed;top:0;right:2%;margin-top: 20px;}
 .l2{position:fixed;top:30px;right:2%;margin-top: 40px;}
 .l3{position:fixed;top:60px;right:2%;margin-top: 60px;}
