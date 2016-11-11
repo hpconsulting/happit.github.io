@@ -91,9 +91,6 @@ border-radius: 50px;margin-bottom: 10px;}
 	
 	.fleche{font-size: 2em;margin-top: -20%;}
 
-	.l1{position:fixed;top:0;right:10%;margin-top: 20px;}
-	.l2{position:fixed;top:30px;right:10%;margin-top: 40px;}
-	.l3{position:fixed;top:60px;right:10%;margin-top: 60px;}
-	.l4{position:fixed;top:90px;right:10%;margin-top: 80px;}
+	.liens {display: none;}
 	
 }
