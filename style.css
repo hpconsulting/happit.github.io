@@ -35,6 +35,11 @@ transition: all 0.5s ease;
 transform:scale(1.2);
 }
 
+.l1{position:fixed;top:0;right:2%;margin-top: 20px;}
+.l2{position:fixed;top:30px;right:2%;margin-top: 40px;}
+.l3{position:fixed;top:60px;right:2%;margin-top: 60px;}
+.l4{position:fixed;top:90px;right:2%;margin-top: 80px;}
+
 .liens{font-size: .6em;background: #3a3a3a;color:white;padding: 5px;border-radius:25px; width: 100px; text-align: center}
 .none {display: none;}
 /* deco */
@@ -85,5 +90,10 @@ border-radius: 50px;margin-bottom: 10px;}
 	border-radius: 50px;margin-bottom: 30px;}	
 	
 	.fleche{font-size: 2em;margin-top: -20%;}
+
+	.l1{position:fixed;top:0;right:10%;margin-top: 20px;}
+	.l2{position:fixed;top:30px;right:10%;margin-top: 40px;}
+	.l3{position:fixed;top:60px;right:10%;margin-top: 60px;}
+	.l4{position:fixed;top:90px;right:10%;margin-top: 80px;}
 	
 }
